@@ -26,7 +26,7 @@ Die einzige Schwäche des Raspberrys ist die Kontrolle der Servomotoren. Hierfü
 Es handelt sich Motoren wie sie auch in RC-Autos zu finden sind. Die Ansteuerung wird mit PWM-Signale bewerkstelligt. Sie lassen sich in einem Radius von 180 Grad drehen.
 ### Aufbau
 <img class="alignnone size-full wp-image-146" src="Stressmonster_ohne_Verkleidung_small.jpg" alt="" />
-####Verkabelungsplan
+#### Verkabelungsplan
 Der Raspberry Pi ist die Basis für alle Komponeten. Als Kommuniktaionsschnittstelle mit dem XMC2Go wird UART genutzt. Die Servos werden über die GPIO-Pins 18 und 13 des Raspberrys betrieben. Als Spannungsversorgung für die Servos dienen die 5V Pins.
 <img class="alignnone size-full wp-image-146" src="Verkabelung.png" alt="" />
 
