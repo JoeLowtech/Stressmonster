@@ -36,7 +36,7 @@ Der Raspberry Pi ist die Basis für alle Komponeten. Als Kommuniktaionsschnittst
 Um den Druck im Stressball lesen zu können, muss der Ball, nachdem der Sensor eingebaut wurde, wieder luftdicht verschlossen werden. Ansonsten ist der Druckausgleich zu schnell und es können keine Druckunterschiede festgestellt werden. Zum versiegeln der Öffnung für das Kabel kann Epoxidhartz genutzt werden.
 <img class="alignnone size-full wp-image-146" src="Stressball_abdichten_small.jpg" alt="" />
 ## Software
-Um das Zusammenspiel der Komponenten zu vereinfachen, wurde bei allen ein Delay von 500 ms eingefügt. Das bedeutet natürlich, dass das Stressmonster entsprechend langsam reagiert. Mit mehr Entwicklungszeeit kann das behoben werden.
+Um das Zusammenspiel der Komponenten zu vereinfachen, wurde bei allen ein Delay von 500 ms eingefügt. Das bedeutet natürlich, dass das Stressmonster entsprechend langsam reagiert. Mit mehr Entwicklungszeit kann das behoben werden.
 ### Druckdaten von Sensor auslesen
 Die Druckdaten werden vom XMC2Go alle 500 ms ausgelesen und an den Raspberry Pi per UART übertragen. Dabei wird das SLIP-Protokoll genutzt.
 ```c++
