@@ -281,13 +281,6 @@ from time import sleep
 
 # Just for demonstration, lots of delay , Not suitable for stable PWM
 
-'''
-  Stressmonster servo control file
-
-  file edited by :Johannes Maier
-  mail:ton.maier@gmail.com
-'''
-
 stress_level = float(sys.argv[1])
 if stress_level > 100 :
     stress_level =100
