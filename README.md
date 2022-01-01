@@ -48,9 +48,6 @@ Die Druckdaten werden vom XMC2Go alle 500 ms ausgelesen und an den Raspberry Pi 
   Stressmonster Pressure measuring
   Collects pressure data and sends the data via Uart to the PC
 
-  file edited by :Johannes Maier
-  mail:ton.maier@gmail.com
-
   Additional library:
   PacketSerial by Christopher Baker
 */
@@ -181,9 +178,6 @@ import time
   collects data, calculates stress_level and stores the results in a csv-file.
 
   csv-file used by node-red
-
-  file edited by :Johannes Maier
-  mail:ton.maier@gmail.com
 '''
 
 # Every 500 ms some data currently. This can be changed through the Source-code of the MCU
