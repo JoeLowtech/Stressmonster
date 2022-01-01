@@ -13,8 +13,6 @@ import time
 
   csv-file used by node-red
 
-  file edited by :Johannes Maier
-  mail:ton.maier@gmail.com
 '''
 
 # Every 500 ms some data currently. This can be changed through the Source-code of the MCU
