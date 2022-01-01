@@ -5,10 +5,7 @@
 /*
   Stressmonster Pressure measuring
   Collects pressure data and sends the data via Uart to the PC
-
-  file edited by :Johannes Maier
-  mail:ton.maier@gmail.com
-
+  
   Additional library:
   PacketSerial by Christopher Baker
 */
